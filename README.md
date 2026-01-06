@@ -1,14 +1,14 @@
-# OpenResume
+# Daybreak Resume Builder
 
-OpenResume is a powerful open-source resume builder and resume parser.
+Daybreak Resume Builder is a powerful open-source resume builder and resume parser.
 
-The goal of OpenResume is to provide everyone with free access to a modern professional resume design and enable anyone to apply for jobs with confidence.
+The goal of Daybreak Resume Builder is to provide everyone with free access to a modern professional resume design and enable anyone to apply for jobs with confidence.
 
-Official site: [https://open-resume.com](https://open-resume.com)
+Official site: [https://daybreak-resume.com](https://daybreak-resume.com)
 
 ## ⚒️ Resume Builder
 
-OpenResume's resume builder allows user to create a modern professional resume easily.
+Daybreak Resume Builder's resume builder allows user to create a modern professional resume easily.
 
 ![Resume Builder Demo](https://i.ibb.co/jzcrrt8/resume-builder-demo-optimize.gif)
 
@@ -19,15 +19,15 @@ It has 5 Core Features:
 | **2. Modern Professional Resume Design** | The resume PDF is a modern professional design that adheres to U.S. best practices and is ATS friendly to top ATS platforms such as Greenhouse and Lever. It automatically formats fonts, sizes, margins, bullet points to ensure consistency and avoid human errors. |
 | **3. Privacy Focus** | The app only runs locally on your browser, meaning no sign up is required and no data ever leaves your browser, so it gives you peace of mind on your personal data. (Fun fact: Running only locally means the app still works even if you disconnect the internet.) |
 | **4. Import From Existing Resume PDF** | If you already have an existing resume PDF, you have the option to import it directly, so you can update your resume design to a modern professional design in literally a few seconds. |
-| **5. Successful Track Record** | OpenResume users have landed interviews and offers from top companies, such as Dropbox, Google, Meta to name a few. It has been proven to work and liken by recruiters and hiring managers. |
+| **5. Successful Track Record** | Daybreak Resume Builder users have landed interviews and offers from top companies, such as Dropbox, Google, Meta to name a few. It has been proven to work and liken by recruiters and hiring managers. |
 
 ## 🔍 Resume Parser
 
-OpenResume’s second component is the resume parser. For those who have an existing resume, the resume parser can help test and confirm its ATS readability.
+Daybreak Resume Builder's second component is the resume parser. For those who have an existing resume, the resume parser can help test and confirm its ATS readability.
 
 ![Resume Parser Demo](https://i.ibb.co/JvSVwNk/resume-parser-demo-optimize.gif)
 
-You can learn more about the resume parser algorithm in the ["Resume Parser Algorithm Deep Dive" section](https://open-resume.com/resume-parser).
+You can learn more about the resume parser algorithm in the ["Resume Parser Algorithm Deep Dive" section](https://daybreak-resume.com/resume-parser).
 
 ## 📚 Tech Stack
 
@@ -43,7 +43,7 @@ You can learn more about the resume parser algorithm in the ["Resume Parser Algo
 
 ## 📁 Project Structure
 
-OpenResume is created with the NextJS web framework and follows its project structure. The source code can be found in `src/app`. There are a total of 4 page routes as shown in the table below. (Code path is relative to `src/app`)
+Daybreak Resume Builder is created with the NextJS web framework and follows its project structure. The source code can be found in `src/app`. There are a total of 4 page routes as shown in the table below. (Code path is relative to `src/app`)
 
 | <div style="width:115px">**Page Route**</div> | **Code Path** | **Description** |
 |---|---|---|
@@ -60,12 +60,12 @@ OpenResume is created with the NextJS web framework and follows its project stru
 2. Change the directory `cd open-resume`
 3. Install the dependency `npm install`
 4. Start a development server `npm run dev`
-5. Open your browser and visit [http://localhost:3000](http://localhost:3000) to see OpenResume live
+5. Open your browser and visit [http://localhost:3000](http://localhost:3000) to see Daybreak Resume Builder live
 
 ### Method 2: Docker
 
 1. Download the repo `git clone https://github.com/xitanggg/open-resume.git`
 2. Change the directory `cd open-resume`
-3. Build the container `docker build -t open-resume .`
-4. Start the container `docker run -p 3000:3000 open-resume`
-5. Open your browser and visit [http://localhost:3000](http://localhost:3000) to see OpenResume live
+3. Build the container `docker build -t daybreak-resume-builder .`
+4. Start the container `docker run -p 3000:3000 daybreak-resume-builder`
+5. Open your browser and visit [http://localhost:3000](http://localhost:3000) to see Daybreak Resume Builder live
